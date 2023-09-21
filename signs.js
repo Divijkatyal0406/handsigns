@@ -1,3 +1,31 @@
+const aSign = new fp.GestureDescription('A');
+const bSign = new fp.GestureDescription('B');
+const cSign = new fp.GestureDescription('C');
+const dSign = new fp.GestureDescription('D');
+const eSign = new fp.GestureDescription('E');
+const fSign = new fp.GestureDescription('F');
+const gSign = new fp.GestureDescription('G');
+const hSign = new fp.GestureDescription('H');
+const iSign = new fp.GestureDescription('I');
+const jSign = new fp.GestureDescription('J');
+const kSign = new fp.GestureDescription('K');
+const lSign = new fp.GestureDescription('L');
+const mSign = new fp.GestureDescription('M');
+const nSign = new fp.GestureDescription('N');
+const oSign = new fp.GestureDescription('O');
+const pSign = new fp.GestureDescription('P');
+const qSign = new fp.GestureDescription('Q');
+const rSign = new fp.GestureDescription('R');
+const sSign = new fp.GestureDescription('S');
+const tSign = new fp.GestureDescription('T');
+const uSign = new fp.GestureDescription('U');
+const vSign = new fp.GestureDescription('V');
+const wSign = new fp.GestureDescription('W');
+const xSign = new fp.GestureDescription('X');
+const ySign = new fp.GestureDescription('Y');
+const zSign = new fp.GestureDescription('Z');
+
+
 aSign.addCurl(fp.Finger.Thumb, fp.FingerCurl.NoCurl, 1.0);
 aSign.addDirection(fp.Finger.Index, fp.FingerDirection.DiagonalUpRight, 0.70);
 aSign.addCurl(fp.Finger.Index, fp.FingerCurl.FullCurl, 1);
